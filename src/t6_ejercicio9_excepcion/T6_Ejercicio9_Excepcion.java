@@ -16,6 +16,5 @@ public class T6_Ejercicio9_Excepcion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
-    
+    }   
 }
