@@ -9,12 +9,12 @@ package t6_ejercicio9_excepcion;
  *
  * @author Sergio
  */
-public class RangoException extends Exception{
+public class MisteriosaException extends Exception{
 /**
  * Se crea el mensaje de la excepcion que va a salir.
  * @param message: Se muestra la informacion que se le ha dado al mensaje.
  */
-    public RangoException(String message) {
+    public MisteriosaException(String message) {
         super(message);
     }
     
