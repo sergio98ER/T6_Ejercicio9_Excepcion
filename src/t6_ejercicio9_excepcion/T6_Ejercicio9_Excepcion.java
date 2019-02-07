@@ -15,6 +15,18 @@ public class T6_Ejercicio9_Excepcion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Alumno a1 = new Alumno("PACO RODRIGUEZ");
+       try{
+         a1.pedirNotas();
+         a1.modificarNota(0, 0);
+         a1.imprimirCalificaciones();
+       }
+       catch(RangoException r){
+           System.err.println("Se ha producido un error: "+r.toString());
+       }catch(MisteriosaException r){
+           System.err.println("Fuera de posicion"+r.toString());
+       }
+       
+       }
     }   
-}
+
